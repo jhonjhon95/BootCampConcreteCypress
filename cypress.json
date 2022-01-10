@@ -2,5 +2,6 @@
     "viewportWidth": 1366,
     "viewportHeight": 768,
     "defaultCommandTimeout": 10000,
-    "baseUrl": "http://automationpractice.com/index.php?controller=authentication&back=my-account"
+    "baseUrl": "http://automationpractice.com/index.php?controller=authentication&back=my-account",
+    "videos": false
 }
