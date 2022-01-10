@@ -1,0 +1,8 @@
+node_modules
+cypress/videos/
+cypress/screenshots
+.DS_Store
+.vscode/
+cypress/.DS_Store
+temp/
+package-lock.json
