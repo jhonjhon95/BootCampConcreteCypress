@@ -27,7 +27,7 @@ class BuscaPage {
     }
 
     validabuscainvalido(){
-        cy.contains('0 results have been found.').should('exist')
+        cy.contains('0 results have been found.zz').should('exist')
     }
 
 }

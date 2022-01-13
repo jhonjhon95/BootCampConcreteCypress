@@ -1,0 +1,93 @@
+[
+  {
+    "description": "Estou no site e desejo fazer buscar por determinado produto",
+    "keyword": "Feature",
+    "name": "Realizar busca por produto",
+    "line": 1,
+    "id": "realizar-busca-por-produto",
+    "tags": [],
+    "uri": "busca.feature",
+    "elements": [
+      {
+        "id": "realizar-busca-por-produto;fazer-uma-busca-por-produto.",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Fazer uma busca por produto.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que estou na home",
+            "result": {
+              "status": "passed",
+              "duration": 5651000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "realizo uma busca por produto",
+            "result": {
+              "status": "passed",
+              "duration": 2125000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "visualizo que a busca do produto foi realizada com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-busca-por-produto;fazer-uma-busca-sem-sucesso",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Fazer uma busca sem sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "que estou na home",
+            "result": {
+              "status": "passed",
+              "duration": 1429000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "realizo uma busca por um produto que não existe",
+            "result": {
+              "status": "passed",
+              "duration": 1771000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "visualizo que nenhum resultado foi encontrado",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find content: '0 results have been found.zz' but never did.\n    at BuscaPage.validabuscainvalido (http://automationpractice.com/__cypress/tests?p=cypress/integration/busca.feature:117:51)\n    at Context.eval (http://automationpractice.com/__cypress/tests?p=cypress/integration/busca.feature:214:13)\n    at Context.resolveAndRunStepDefinition (http://automationpractice.com/__cypress/tests?p=cypress/integration/busca.feature:10517:29)\n    at Context.eval (http://automationpractice.com/__cypress/tests?p=cypress/integration/busca.feature:9838:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

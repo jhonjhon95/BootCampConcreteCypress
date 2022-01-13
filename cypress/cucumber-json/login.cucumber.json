@@ -1,0 +1,93 @@
+[
+  {
+    "description": "Estou no site e desejo realizar login para ultilizar tudo que a plataforma oferece",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;fazer-login-com-sucesso",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Fazer login com sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que estou na tela de login",
+            "result": {
+              "status": "passed",
+              "duration": 3502000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "realizo login com usuário válido",
+            "result": {
+              "status": "passed",
+              "duration": 2389000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "visualizo que estou logado na aplicação",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;fazer-login-com-falha",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Fazer login com falha",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "que estou na tela de login",
+            "result": {
+              "status": "passed",
+              "duration": 1191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "preencho meus dados com senha inválida",
+            "result": {
+              "status": "passed",
+              "duration": 1869000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "visualizo mensagem de erro ao realizar login",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
